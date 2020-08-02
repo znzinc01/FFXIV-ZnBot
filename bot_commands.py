@@ -165,7 +165,7 @@ def help(args):
     message = '`FFXIV-ZnBot 도움말 (2.0 / 20200802)`'
     cmd = get_command_name(args[0]) if len(args) > 0 else None
     if cmd is None or cmd == '도움말':
-        return message, ['전체 도움말','','','',
+        return message, ['전체 도움말','','','https://github.com/znzinc01/FFXIV-ZnBot/blob/gh-pages/docs/discord_icon.png?raw=true',
                          {'name': '!주사위', 'value':'무작위 주사위를 굴립니다. 최대 값이나 회수를 변경할 수도 있습니다.'},
                          {'name': '!선택', 'value':'제시한 선택지 중에서 고릅니다.'},
                          {'name': '!판매정보', 'value':'아이템을 구입할 수 있는 NPC 정보를 보여줍니다.'},

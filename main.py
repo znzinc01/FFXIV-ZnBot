@@ -58,7 +58,7 @@ def guild_add(id):
 def guild_delete(id):
     del(server_list[str(id)])
     with open ('./registered_servers.json', 'w') as serverFile:
-        serverFile.sritE(json.dumps(server_list, indent=2, ensure_ascii=False))
+        serverFile.write(json.dumps(server_list, indent=2, ensure_ascii=False))
 
 # Define Bot
 bot = commands.Bot(command_prefix=commands.when_mentioned_or('!'), description='FF14')
@@ -91,7 +91,6 @@ async def on_message(message):
         with sentry_sdk.configure_scope() as scope:
             scope.set_extra('Message Content', message.content)
             first_word = message.content.split()[0]
-            print(first_word)
             if first_word.startswith('!') and bot_commands.get_command_name(first_word):
                 input_logger(message)
                 if not guild_check(message.guild.id):
