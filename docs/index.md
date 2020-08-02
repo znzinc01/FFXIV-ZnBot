@@ -61,7 +61,7 @@
 
 6. **개인정보 보호책임자 연락처**
 - 이메일: admin(@)znzinc(.)net
-- 트위터: https://twitter.com/FFXIV_ZnBot
+- 트위터: [https://twitter.com/FFXIV_ZnBot](https://twitter.com/FFXIV_ZnBot)
 - 혹은 [문의하기 링크](https://goo.gl/forms/2gAWYcKMTARLpyAG2)를 통해 문의하실 수 있습니다.
 
 7. **본 약관의 적용 범위**
