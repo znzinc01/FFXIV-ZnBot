@@ -17,7 +17,7 @@
 ## 문의하기 / 버그 제보
 - 이메일: admin( @ )znzinc( . )net
 - 문의 접수 폼: [https://goo.gl/forms/2gAWYcKMTARLpyAG2](https://goo.gl/forms/2gAWYcKMTARLpyAG2)
-- 트위터 (공지사항도 같이 전달드릭 있습니다): [https://twitter.com/FFXIV_ZnBot](https://twitter.com/FFXIV_ZnBot)
+- 트위터 (공지사항도 같이 전달드리고 있습니다): [https://twitter.com/FFXIV_ZnBot](https://twitter.com/FFXIV_ZnBot)
 
 ---
 
